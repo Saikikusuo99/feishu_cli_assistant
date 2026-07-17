@@ -1,0 +1,274 @@
+{
+  "inspect_time": "2026-07-16T01:16:22.702552",
+  "base1": {
+    "app_token": "QwDQbAWsNaolLJsJa0ocvJdQn8d",
+    "tables": [
+      {
+        "table_id": "tblhGG2zDmkksD5w",
+        "table_name": "进度跟踪",
+        "fields": [
+          {
+            "field_id": "fldkyln1gp",
+            "field_name": "需求",
+            "is_extend": false,
+            "is_primary": true,
+            "is_synced": false,
+            "property": null,
+            "type": 1,
+            "ui_type": "Text"
+          },
+          {
+            "field_id": "fldriy6T8v",
+            "field_name": "优先级",
+            "is_extend": false,
+            "is_primary": false,
+            "is_synced": false,
+            "property": {
+              "options": [
+                {
+                  "color": 11,
+                  "id": "optAMgbwjb",
+                  "name": "P0"
+                },
+                {
+                  "color": 1,
+                  "id": "optdbcxLgP",
+                  "name": "P1"
+                },
+                {
+                  "color": 2,
+                  "id": "optmYe29DP",
+                  "name": "P2"
+                },
+                {
+                  "color": 9,
+                  "id": "optih8gb6H",
+                  "name": "P3"
+                }
+              ]
+            },
+            "type": 3,
+            "ui_type": "SingleSelect"
+          },
+          {
+            "field_id": "fldBksxjbo",
+            "field_name": "状态",
+            "is_extend": false,
+            "is_primary": false,
+            "is_synced": false,
+            "property": {
+              "options": [
+                {
+                  "color": 18,
+                  "id": "optQSt59Bs",
+                  "name": "未开始"
+                },
+                {
+                  "color": 13,
+                  "id": "optN11NOwQ",
+                  "name": "进行中"
+                },
+                {
+                  "color": 15,
+                  "id": "optOAvGiQr",
+                  "name": "已完成"
+                }
+              ]
+            },
+            "type": 3,
+            "ui_type": "SingleSelect"
+          },
+          {
+            "field_id": "fldriBVpmR",
+            "field_name": "开始时间",
+            "is_extend": false,
+            "is_primary": false,
+            "is_synced": false,
+            "property": {
+              "auto_fill": false,
+              "date_formatter": "yyyy/MM/dd"
+            },
+            "type": 5,
+            "ui_type": "DateTime"
+          },
+          {
+            "field_id": "fld6fAjbjh",
+            "field_name": "截止时间",
+            "is_extend": false,
+            "is_primary": false,
+            "is_synced": false,
+            "property": {
+              "auto_fill": false,
+              "date_formatter": "yyyy/MM/dd"
+            },
+            "type": 5,
+            "ui_type": "DateTime"
+          },
+          {
+            "field_id": "fldGUKKOav",
+            "field_name": "负责人员",
+            "is_extend": false,
+            "is_primary": false,
+            "is_synced": false,
+            "property": {
+              "multiple": true
+            },
+            "type": 11,
+            "ui_type": "User"
+          }
+        ],
+        "views": [
+          {
+            "view_id": "vew4cp9K29",
+            "view_name": "默认视图",
+            "view_public_level": "Public",
+            "view_type": "grid"
+          }
+        ]
+      }
+    ]
+  },
+  "base2": {
+    "app_token": "MK1fbf8m2aaPKjsQJD5cmsTVnCc",
+    "tables": [
+      {
+        "table_id": "tblWnVcVUkb2ozlv",
+        "table_name": "任务分配",
+        "fields": [
+          {
+            "field_id": "fldKt0ncqB",
+            "field_name": "任务描述",
+            "is_extend": false,
+            "is_primary": true,
+            "is_synced": false,
+            "property": null,
+            "type": 1,
+            "ui_type": "Text"
+          },
+          {
+            "field_id": "fldIleoHYZ",
+            "field_name": "优先级",
+            "is_extend": false,
+            "is_primary": false,
+            "is_synced": false,
+            "property": {
+              "options": [
+                {
+                  "color": 11,
+                  "id": "optDaHAjFw",
+                  "name": "优先"
+                },
+                {
+                  "color": 1,
+                  "id": "opt9GQq4qo",
+                  "name": "一般"
+                }
+              ]
+            },
+            "type": 3,
+            "ui_type": "SingleSelect"
+          },
+          {
+            "field_id": "fldexAMPut",
+            "field_name": "负责人",
+            "is_extend": false,
+            "is_primary": false,
+            "is_synced": false,
+            "property": {
+              "multiple": true
+            },
+            "type": 11,
+            "ui_type": "User"
+          },
+          {
+            "field_id": "fldCZJymWV",
+            "field_name": "开始日期",
+            "is_extend": false,
+            "is_primary": false,
+            "is_synced": false,
+            "property": {
+              "auto_fill": false,
+              "date_formatter": "yyyy/MM/dd"
+            },
+            "type": 5,
+            "ui_type": "DateTime"
+          },
+          {
+            "field_id": "fldbPX74lM",
+            "field_name": "截止日期",
+            "is_extend": false,
+            "is_primary": false,
+            "is_synced": false,
+            "property": {
+              "auto_fill": false,
+              "date_formatter": "yyyy/MM/dd"
+            },
+            "type": 5,
+            "ui_type": "DateTime"
+          },
+          {
+            "field_id": "fldq7ZSFwt",
+            "field_name": "任务所需时长",
+            "is_extend": false,
+            "is_primary": false,
+            "is_synced": false,
+            "property": {
+              "formatter": "0",
+              "formula_expression": "bitable::$table[tblWnVcVUkb2ozlv].$field[fldbPX74lM]-bitable::$table[tblWnVcVUkb2ozlv].$field[fldCZJymWV]"
+            },
+            "type": 20,
+            "ui_type": "Formula"
+          },
+          {
+            "field_id": "fldEpSozg3",
+            "field_name": "备注",
+            "is_extend": false,
+            "is_primary": false,
+            "is_synced": false,
+            "property": null,
+            "type": 1,
+            "ui_type": "Text"
+          }
+        ],
+        "views": [
+          {
+            "view_id": "vewhP7JKEa",
+            "view_name": "任务总表",
+            "view_public_level": "Public",
+            "view_type": "grid"
+          },
+          {
+            "view_id": "vewRNAuMs3",
+            "view_name": "新增任务",
+            "view_public_level": "Public",
+            "view_type": "form"
+          },
+          {
+            "view_id": "vew4AVlMYq",
+            "view_name": "负责人看板",
+            "view_public_level": "Public",
+            "view_type": "kanban"
+          },
+          {
+            "view_id": "vewwwSXFFV",
+            "view_name": "任务进展甘特图",
+            "view_public_level": "Public",
+            "view_type": "gantt"
+          },
+          {
+            "view_id": "vewHvCQjA7",
+            "view_name": "任务查询",
+            "view_public_level": "Public",
+            "view_type": "unknown"
+          },
+          {
+            "view_id": "vewAq6GulX",
+            "view_name": "表格 2",
+            "view_public_level": "Public",
+            "view_type": "grid"
+          }
+        ]
+      }
+    ]
+  }
+}
